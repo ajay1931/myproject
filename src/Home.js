@@ -30,7 +30,9 @@ import React, { useState } from 'react'
 
 export default function Home() {
   const [names, setNames] = useState([])
-  
+
+ 
+
   function changeName() {
     setNames([...names, 'hi,hello'])
   }
@@ -40,8 +42,18 @@ export default function Home() {
         names && names.map((name,index) => {
           return <h1 key={index}>{name}</h1>
         })
+        
       }
       <button onClick={changeName}>change</button>
+      
     </div>
   )
 }
+
+
+const cities =["chennai","madurai","kovai"]
+function greetings(){
+    console.log("Hi user")
+}
+
+export {cities,greetings}
