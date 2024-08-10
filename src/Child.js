@@ -1,10 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 export default function Child(props) {
   const {title,onclick}=props
-  useEffect(()=>{
-    console.log(title.name)
-  },[])
+
   return (
     <div>
       <h1>{title.name}</h1>

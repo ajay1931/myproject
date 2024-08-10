@@ -1,5 +1,6 @@
-import React,{useEffect, useState} from 'react'
+import React,{useState} from 'react'
 import Child from './Child'
+import { cities,greetings } from './Home'
 
 export default function Parrent() {
   const[name,setName]=useState({"name":"sengs"})
@@ -14,4 +15,8 @@ export default function Parrent() {
     
   )
 }
+
+
+console.log(cities)
+console.log(greetings)
 
