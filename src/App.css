@@ -1,5 +1,13 @@
-#home{
+#home {
   background-color: brown;
   padding: 2em;
   text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+.heading{
+  color: aqua;
+
 }
